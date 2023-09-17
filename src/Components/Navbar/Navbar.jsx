@@ -14,7 +14,7 @@ const Navbar = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
+    const data = await fetch("https://server-six-lilac.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "Application/json",
