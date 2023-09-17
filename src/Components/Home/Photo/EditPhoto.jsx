@@ -34,7 +34,7 @@ const EditPhoto = () => {
       const token = await localStorage.getItem("userDataToken");
       // console.log(token);
 
-      const data = await fetch("https://server-dgx9.vercel.app/editPhoto", {
+      const data = await fetch("https://server-six-lilac.vercel.app/editPhoto", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
