@@ -12,7 +12,7 @@ const Contact = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
+    const data = await fetch("https://server-six-lilac.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -39,7 +39,7 @@ const Contact = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/deleteContact", {
+    const data = await fetch("https://server-six-lilac.vercel.app/deleteContact", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
