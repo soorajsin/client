@@ -13,7 +13,7 @@ const About = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
+    const data = await fetch("https://server-six-lilac.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const About = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/deleteEducationOne", {
+    const data = await fetch("https://server-six-lilac.vercel.app/deleteEducationOne", {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",
@@ -67,7 +67,7 @@ const About = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/deleteExperience", {
+    const data = await fetch("https://server-six-lilac.vercel.app/deleteExperience", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
