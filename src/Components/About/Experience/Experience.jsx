@@ -39,7 +39,7 @@ const Experience = () => {
       const token = await localStorage.getItem("userDataToken");
       //       console.log(token);
 
-      const data = await fetch("https://server-dgx9.vercel.app/editExperience", {
+      const data = await fetch("https://server-six-lilac.vercel.app/editExperience", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
