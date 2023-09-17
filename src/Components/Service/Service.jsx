@@ -14,7 +14,7 @@ const Service = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
+    const data = await fetch("https://server-six-lilac.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -47,7 +47,7 @@ const Service = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/deleteService", {
+    const data = await fetch("https://server-six-lilac.vercel.app/deleteService", {
       method: "DELETE",
       headers: { "Content-type": "application/json", Authorization: token },
       body: JSON.stringify({ serviceId }),
