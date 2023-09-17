@@ -13,7 +13,7 @@ const Home = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
+    const data = await fetch("https://server-six-lilac.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "Application/json",
@@ -41,7 +41,7 @@ const Home = () => {
   const deletePhoto = async (photoId, index) => {
     const token = await localStorage.getItem("userDataToken");
 
-    const data = await fetch("https://server-dgx9.vercel.app/deletePhoto", {
+    const data = await fetch("https://server-six-lilac.vercel.app/deletePhoto", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
