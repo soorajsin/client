@@ -13,7 +13,7 @@ const Portfolio = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("http://localhost:4000/validUser", {
+    const data = await fetch("https://server-dgx9.vercel.app/validUser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -41,7 +41,7 @@ const Portfolio = () => {
     const token = await localStorage.getItem("userDataToken");
     // console.log(token);
 
-    const data = await fetch("http://localhost:4000/deleteProject", {
+    const data = await fetch("https://server-dgx9.vercel.app/deleteProject", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -64,7 +64,7 @@ const Portfolio = () => {
   const deleteCertificate = async (certificateId, index) => {
     const token = await localStorage.getItem("userDataToken");
 
-    const data = await fetch("http://localhost:4000/deleteCertificate", {
+    const data = await fetch("https://server-dgx9.vercel.app/deleteCertificate", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

@@ -37,7 +37,7 @@ const EditEducation = () => {
 
       const token = await localStorage.getItem("userDataToken");
 
-      const data = await fetch("http://localhost:4000/editEducation", {
+      const data = await fetch("https://server-dgx9.vercel.app/editEducation", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

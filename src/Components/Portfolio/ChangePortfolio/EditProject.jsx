@@ -45,7 +45,7 @@ const EditProject = () => {
       const token = await localStorage.getItem("userDataToken");
       //       console.log(token);
 
-      const data = await fetch("http://localhost:4000/editProject", {
+      const data = await fetch("https://server-dgx9.vercel.app/editProject", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -39,7 +39,7 @@ const Register = () => {
     } else {
       console.log("login");
 
-      const data = await fetch("http://localhost:4000/login", {
+      const data = await fetch("https://server-dgx9.vercel.app/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

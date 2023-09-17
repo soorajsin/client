@@ -37,7 +37,7 @@ const EditContact = () => {
       const token = await localStorage.getItem("userDataToken");
       //       console.log(token);
 
-      const data = await fetch("http://localhost:4000/editContact", {
+      const data = await fetch("https://server-dgx9.vercel.app/editContact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
